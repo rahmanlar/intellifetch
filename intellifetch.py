@@ -96,3 +96,5 @@ def fetch_os():
       print("\____   )MMMMMP|   .'    ")
       print("     `-'       `--'      ")
 
+fetch()
+fetch_os()
