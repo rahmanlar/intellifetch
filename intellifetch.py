@@ -15,10 +15,6 @@ import GPUtil
 import csv
 import datetime
 import time
-try:
-  import cpuid
-except:
-  print("An exception occurred: cpuid library was not found.")
 class colors:
     HEADER = '\033[95m'
     BLUE = '\033[94m'
@@ -96,3 +92,5 @@ def fetch_os():
       print("\____   )MMMMMP|   .'    ")
       print("     `-'       `--'      ")
 
+fetch()
+fetch_os()
